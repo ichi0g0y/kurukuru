@@ -33,7 +33,7 @@
   },
   "prettier": "prettier-config-ichi0g0y",
   "devDependencies": {
-    "prettier-config-ichi0g0y": "file:../prettier-config",
+    "prettier-config-ichi0g0y": "^0.1.2",
     "@jest/globals": "^29.5.0",
     "@types/node": "^20.9.2",
     "eslint": "^8.53.0",

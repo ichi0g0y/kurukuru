@@ -27,8 +27,8 @@ importers:
         specifier: ^29.5.0
         version: 29.7.0(@types/node@20.9.2)(ts-node@10.9.1(@types/node@20.9.2)(typescript@5.2.2))
       prettier-config-ichi0g0y:
-        specifier: file:../prettier-config
-        version: file:../prettier-config(prettier@2.8.8)
+        specifier: ^0.1.2
+        version: 0.1.2(prettier@2.8.8)
       ts-jest:
         specifier: ^29.1.1
         version: 29.1.1(@babel/core@7.23.3)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.23.3))(jest@29.7.0(@types/node@20.9.2)(ts-node@10.9.1(@types/node@20.9.2)(typescript@5.2.2)))(typescript@5.2.2)
@@ -1609,8 +1609,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier-config-ichi0g0y@file:../prettier-config:
-    resolution: {directory: ../prettier-config, type: directory}
+  prettier-config-ichi0g0y@0.1.2:
+    resolution: {integrity: sha512-gCq2jn38wUUrVHKvKSqwnJvxdb6CzqorlaoT/5mTL8NtGkF8vKrcwQtBuD+aT5og6uAcGDOsxNRSI/Ar/XYg1Q==}
     peerDependencies:
       prettier: ^2.8.8
 
@@ -3913,7 +3913,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-config-ichi0g0y@file:../prettier-config(prettier@2.8.8):
+  prettier-config-ichi0g0y@0.1.2(prettier@2.8.8):
     dependencies:
       prettier: 2.8.8
 
